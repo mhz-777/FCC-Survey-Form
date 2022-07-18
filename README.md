@@ -1,12 +1,14 @@
 # FCC-Survey-Form
 
-The purpose of this project is to create a functional survey form similar to this:  https://survey-form.freecodecamp.rocks
+Goal:
+
+* The purpose of this project is to create a functional survey form similar to this:  https://survey-form.freecodecamp.rocks
 
 Demo:
 
 Skills Used:
-HTML5
-CSS
+* HTML5
+* CSS
 
 Project Specifications:
 
