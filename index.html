@@ -8,6 +8,58 @@
     <title>Survey Form</title>
 </head>
 <body>
-    
+    <header>
+        <h1 id="title">Programming Survey Form</h1>
+        <p id="description">Thanks for helping us get to know programmers better!</p>
+    </header>
+    <form id="survey-form">
+        <div class="formSection">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter name (required)" required>
+        </div>
+        <div class="formSection">
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" placeholder="Please enter your email (required)" required>
+        </div>
+        <div class="formSection">
+            <label for="age" id="number-label">Age:</label>
+            <input type="number" name="age" id="number" min="3" max="100" placeholder=" Within 3-100">
+        </div>
+        <div class="formSection">
+            <label for="role">Choose what best describes your current role:</label>
+            <select name="role" id="dropdown">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Professional">Professional</option>
+            </select>
+        </div>
+        <div class="formSection">
+            <p>How difficult are you currently finding programming to be?</p>
+            <input type="radio" name="difficulty" id="easy" value="easy">
+            <label for="easy">Easy!</label>
+            <input type="radio" name="difficulty" id="moderate" value="moderate" checked> <!-- default keep this checked-->
+            <label for="moderate">Not too bad...</label>
+            <input type="radio" name="difficulty" id="hard" value="hard">
+            <label for="hard">I'm stumped!!!</label>
+        </div>
+        <div class="formSection">
+            <p>What languages are you currently studying and also planning to study in the future?</p>
+            <input type="checkbox" name="lang1" id="html" value="HTML">
+            <label for="lang1">HTML</label>
+            <input type="checkbox" name="lang2" id="css" value="CSS">
+            <label for="lang2">CSS</label>
+            <input type="checkbox" name="lang3" id="javascript" value="javascript">
+            <label for="lang3">Javascript</label>
+            <input type="checkbox" name="lang4" id="react" value="react">
+            <label for="lang4">React</label>
+        </div>
+        <div class="formSection">
+            <label for="commentSection"><p>Any additional questions/comments/concerns can go below!</p></label>
+            <textarea name="commentSection" id="commentSection" cols="30" rows="10" placeholder="Enter your correspondance here!"></textarea>
+        </div>
+        <div class="formSection">
+            <button id="submit">Submit!</button>
+        </div>
+    </form>
 </body>
 </html>
