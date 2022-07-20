@@ -77,3 +77,43 @@ select {
 }
 
 /* END OF CSS RESET FILE */
+
+/* Start of my CSS */
+
+:root {
+  
+  /* fonts */
+
+
+}
+
+body {
+
+  background-image: url(/images/background-image.jpg);
+  background-size: cover;
+
+}
+
+header {
+  text-align: center;
+  padding: 2.5rem;
+  
+}
+
+.container {
+  background-color: rgba(18, 48, 44, 0.8); /* rgba prevents child elements from inherting opacity */
+  max-width: 1000px;
+  margin: auto;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  
+}
+
+.formSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  
+}
