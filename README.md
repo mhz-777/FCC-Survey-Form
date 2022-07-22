@@ -4,7 +4,9 @@ Goal:
 
 * The purpose of this project is to create a functional survey form similar to this:  https://survey-form.freecodecamp.rocks
 
-Demo:
+Demo: 
+
+* Follow this link to view the current state of my project: https://codepen.io/mhz_777/pen/MWVowXg
 
 Skills Used:
 * HTML5
