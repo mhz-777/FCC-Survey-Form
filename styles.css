@@ -83,7 +83,11 @@ select {
 :root {
   
   /* fonts */
+  --ff-main: 'Mina', sans-serif;
+  --ff-sub: 'Oxygen', sans-serif;
 
+  /* colours */ 
+  --primary-color: rgba(18,48,44,0.8); /* rgba prevents child elements from inherting opacity */
 
 }
 
@@ -91,18 +95,32 @@ body {
 
   background-image: url(/images/background-image.jpg);
   background-size: cover;
-
 }
 
 header {
   text-align: center;
   padding: 2.5rem;
   
+  
+}
+
+h1 {
+  font-family: var(--ff-main);
+  font-weight: 700;
+  font-size: 36px;
+  text-shadow: 1px 1px #ffffff;
+}
+
+#description {
+  font-family: var(--ff-sub);
+  font-weight: 400;
+  font-size: 14px;
+  
 }
 
 .container {
-  background-color: rgba(18, 48, 44, 0.8); /* rgba prevents child elements from inherting opacity */
-  max-width: 1000px;
+  background-color: var(--primary-color); 
+  max-width: 700px;
   margin: auto;
   padding: 2.5rem;
   border-radius: 0.5rem;
@@ -111,9 +129,27 @@ header {
 
 .formSection {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   color: white;
+  padding: 0.66rem;
+  justify-content: center;
+}
+
+.formSection>input{  /* targetting the inputs of formSection only */
+  width: 100%;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 0.66rem;
+  color: white;
+  background-color: green;  
+  cursor: pointer;
+  border: none;
   
 }
+
+
+
+
