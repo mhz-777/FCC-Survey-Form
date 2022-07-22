@@ -33,12 +33,14 @@ Challenges Faced:
 
    * Making design flow w.r.t background image
    * Not applying opacity to child elements, but rather just the parent
+   * How to style the indiviual fields in the form section to appear as desired
 
 
 New Things Learned:
 
    * pre-sketching a design in FIGMA allows me to experiment with different designs without having to code anything
    * rgba allows to apply opacity just to the parent
+   * nesting the label and input tags allow the elements to appear in the same line rather than separately
 
    
    
