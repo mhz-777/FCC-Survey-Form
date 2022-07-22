@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mina:wght@700&family=Oxygen&display=swap" rel="stylesheet"> 
     <title>Survey Form</title>
 </head>
 <body>
@@ -36,33 +39,46 @@
             </div>
             <div class="formSection">
                 <p>How difficult are you currently finding programming to be?</p>
-                <input type="radio" name="difficulty" id="easy" value="easy">
-                <label for="easy">Easy!</label>
-                <input type="radio" name="difficulty" id="moderate" value="moderate" checked> <!-- default keep this checked-->
-                <label for="moderate">Not too bad...</label>
-                <input type="radio" name="difficulty" id="hard" value="hard">
-                <label for="hard">I'm stumped!!!</label>
+                <label for="easy">
+                    <input type="radio" name="difficulty" id="easy" value="easy">
+                    Easy!
+                </label>
+                <label for="moderate">
+                    <input type="radio" name="difficulty" id="moderate" value="moderate">
+                    Not too bad...
+                </label>
+                <label for="hard">
+                    <input type="radio" name="difficulty" id="hard" value="hard">
+                    I'm stumped!!!
+                </label>
             </div>
             <div class="formSection">
                 <p>What languages are you currently studying and also planning to study in the future?</p>
-                <input type="checkbox" name="lang1" id="html" value="HTML">
-                <label for="lang1">HTML</label>
-                <input type="checkbox" name="lang2" id="css" value="CSS">
-                <label for="lang2">CSS</label>
-                <input type="checkbox" name="lang3" id="javascript" value="javascript">
-                <label for="lang3">Javascript</label>
-                <input type="checkbox" name="lang4" id="react" value="react">
-                <label for="lang4">React</label>
+                <label for="lang1">
+                    <input type="checkbox" name="lang1" id="html" value="html">
+                    HTML
+                </label>
+                <label for="lang2">
+                    <input type="checkbox" name="lang2" id="css" value="css">
+                    CSS
+                </label>
+                <label for="lang3">
+                    <input type="checkbox" name="lang3" id="javascript" value="javascript">
+                    Javascript
+                </label>
+                <label for="lang4">
+                    <input type="checkbox" name="lang4" id="react" value="react">
+                    React
+                </label>
             </div>
             <div class="formSection">
                 <label for="commentSection"><p>Any additional questions/comments/concerns can go below!</p></label>
-                <textarea name="commentSection" id="commentSection" cols="30" rows="10" placeholder="Enter your correspondance here!"></textarea>
+                <textarea name="commentSection" id="commentSection" placeholder="Enter your correspondance here!"></textarea>
             </div>
             <div class="formSection">
                 <button id="submit">Submit!</button>
             </div>
         </form>
     </div>
-
 </body>
 </html>
