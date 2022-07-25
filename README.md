@@ -8,6 +8,7 @@ Demo:
 
 * Follow this link to view the current state of my project: https://codepen.io/mhz_777/pen/MWVowXg
 
+
 Skills Used:
 * HTML5
 * CSS
@@ -36,6 +37,7 @@ Challenges Faced:
    * Making design flow w.r.t background image
    * Not applying opacity to child elements, but rather just the parent
    * How to style the indiviual fields in the form section to appear as desired
+   * Styling for mobile first, rather than desktop.
 
 
 New Things Learned:
@@ -43,6 +45,7 @@ New Things Learned:
    * pre-sketching a design in FIGMA allows me to experiment with different designs without having to code anything
    * rgba allows to apply opacity just to the parent
    * nesting the label and input tags allow the elements to appear in the same line rather than separately
+   * using media queries allows to design mobile first, then add querie for desktop later (although I learned this     too    late so I couldn't mobile first design this page ^-^)
 
    
    
