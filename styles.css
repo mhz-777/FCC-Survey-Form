@@ -131,6 +131,7 @@ h1 {
   display: flex;
   flex-direction: column;
   color: white;
+  font-family: var(--ff-sub);
   padding: 0.66rem;
   justify-content: center;
 }
@@ -146,10 +147,32 @@ h1 {
   color: white;
   background-color: green;  
   cursor: pointer;
-  border: none;
+  border-color: green;
+  border-radius: 0.25rem;
   
 }
 
+/* media queries for mobile  */
+@media only screen and (max-width: 768px){
+
+    /* make the container not jut up against the sides of the page */
+
+    .container {
+      margin-left: 0.75rem;
+      margin-right: 0.75rem;
+    }
+
+    /* change color of text on mobile to make it easier to read */
+
+    h1 {
+      color: white;
+      text-shadow: 1px 1px #000000;
+    }
+
+    #description {
+      color: white;
+    }
+}
 
 
 
